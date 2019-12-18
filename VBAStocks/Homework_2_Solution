@@ -7,11 +7,9 @@ Dim Summary_Row As Integer
 Dim Open_Value As Double
 Dim Change_Value As Double
 Dim Perc_Change As Double
-Dim Gr_Inc As Double
 Dim Tic_Cap As String
 Dim Sum_Dif  As Double
 
-Gr_Inc = 0
 Perc_Change = 0
 Change_Value = 0
 Vol_Tot = 0
@@ -73,6 +71,3 @@ For b = 2 To LastRow
 Next b
 Next ws
 End Sub
-
-
-
